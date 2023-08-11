@@ -21,7 +21,7 @@ function addList(){
         li.innerHTML = inputBox.value ;
         listBox.appendChild(li);
         let span = document.createElement("span");
-        span.innerHTML = "\u00d7"
+        span.innerHTML = "\u00d7";
         li.appendChild(span);
     }
     saveData();
